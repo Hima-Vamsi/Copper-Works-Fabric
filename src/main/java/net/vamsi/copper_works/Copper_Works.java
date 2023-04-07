@@ -1,6 +1,7 @@
 package net.vamsi.copper_works;
 
 import net.fabricmc.api.ModInitializer;
+import net.vamsi.copper_works.item.ModItems;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -10,5 +11,8 @@ public class Copper_Works implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModItems.registerModItems();
+
 	}
 }
