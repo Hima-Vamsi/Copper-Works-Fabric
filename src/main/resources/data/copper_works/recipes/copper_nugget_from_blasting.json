@@ -15,6 +15,21 @@
     },
     {
       "item": "copper_works:copper_sword"
+    },
+    {
+      "item": "copper_works:copper_helmet"
+    },
+    {
+      "item": "copper_works:copper_chestplate"
+    },
+    {
+      "item": "copper_works:copper_leggings"
+    },
+    {
+      "item": "copper_works:copper_boots"
+    },
+    {
+    "item": "copper_works:copper_horse_armor"
     }
   ],
   "result": "copper_works:copper_nugget",
