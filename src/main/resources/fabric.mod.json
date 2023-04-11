@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "copper_works",
+  "version": "${version}",
+
+  "name": "Copper Works",
+  "description": "Copper Works breathes new life into copper by introducing a range of tools and armor that provide much-needed uses and utility.",
+  "authors": [
+    "Katta Hima Vamsi"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Hima-Vamsi/",
+    "sources": "https://github.com/Hima-Vamsi/Copper-Works-Fabric"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.vamsi.copper_works.Copper_Works"
+    ],
+    "client": [
+      "net.vamsi.copper_works.Copper_WorksClient"
+    ]
+  },
+  "mixins": [
+    "copper_works.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
